@@ -11,3 +11,4 @@ sobrenome = gets.chomp
 # saída utilizando puts
 # use códigos ruby dentro de uma string com #{code}
 puts "Hello #{name} #{sobrenome}!"
+puts "Parabéns que lindo nome!"
