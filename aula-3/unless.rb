@@ -1,5 +1,6 @@
 product_status = 'closed'
 
+# "if not" funcionaria igual o unless
 unless product_status == 'open'
     check_change = 'can'
 else
