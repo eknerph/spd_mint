@@ -15,4 +15,4 @@ for fruit in fruits
     puts fruit
 end
 
-puts fruit
+# puts fruit
