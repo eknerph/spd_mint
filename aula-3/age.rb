@@ -4,7 +4,7 @@ loop do
     puts 'Selecione uma das seguintes opções'
     puts '1- Descobrir a idade de uma pesso'
     puts '0- Sair'
-    print 'Opção:'
+    print 'Opção: '
 
     option = gets.chomp.to_i
 
