@@ -5,7 +5,7 @@ loop do
     puts '3 - Multiplicar'
     puts '4 - Dividir'
     puts '0 - Sair'
-    print 'Opção:'
+    print 'Opção => '
 
     option = gets.chomp.to_i
     break if option == 0
