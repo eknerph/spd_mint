@@ -11,7 +11,7 @@ loop do
     break if option == 0
     
     if[1,2,3,4].include?(option)
-        puts 'DIgite o primeiro número: '
+        puts 'Digite o primeiro número: '
         number1 = gets.chomp.to_f
 
         puts 'Digite o segundo número: '
