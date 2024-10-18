@@ -14,18 +14,18 @@
 # third_name = 'Almeida'
 
 
-# talk(first_name, last_name, third_name)
+talk(first_name, last_name, third_name)
 
-# def signal(color = 'vermelho')
-#     puts "O sinal está #{color}"
-# end
+def signal(color = 'vermelho')
+    puts "O sinal está #{color}"
+end
 
-# signal
+signal
 
-# color = 'verde'
-# signal(color)
+color = 'verde'
+signal(color)
 
-# color = 'amarelo'
-# signal(color)
+color = 'amarelo'
+signal(color)
 
 
