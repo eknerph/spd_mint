@@ -27,18 +27,18 @@ teclado = Teclado.new
 lapis = Lapis.new
 caneta = Caneta.new
 
-# puts "lápis:"
-# lapis.escrever
-# puts "caneta:"
-# caneta.escrever
+puts "lápis:"
+lapis.escrever
+puts "caneta:"
+caneta.escrever
 puts "taclado:"
 teclado.escrever
 
-# instrumento = [Lapis.new, Caneta.new]
-# # Chamamos o método escrever pra qualquer instrumento
-# Instrumentos.each do |instrumento|
-#   Instrumento.escrever
-# end
+Instrumentos = [Lapis.new, Caneta.new]
+# Chamamos o método escrever pra qualquer instrumento
+Instrumentos.each do |instrumento|
+  Instrumentos.escrever
+end
 
 
 
