@@ -1,3 +1,4 @@
+# Busca linear
 def busca_linear(array, number)
   array.each_with_index do |item, indice|
     return indice if item == number
