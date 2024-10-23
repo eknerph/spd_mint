@@ -12,3 +12,6 @@ first_user.add('joão')
 
 second_user = User.new
 second_user.add('Mário')
+
+third_user = User.new
+third_user.add('Joshua')
