@@ -19,20 +19,36 @@
 # end 
 
 # 4º Exemplo
-def foo
-  # call the block
-  yield
-  yield
-end
+# def foo
+#   # call the block
+#   yield
+#   yield
+# end
 
-# 4.1
+# 4º.1
 # foo { puts "Exec the block" }
 
-# 4.2
-foo do
-  puts " Exec the block "
-  puts 12567
+# 4º.2
+# foo do
+#   puts " Exec the block "
+#   puts 12567
+# end
+
+# 5º Exemplo
+def foo
+  if block_given?
+  # Call the block
+  yield
+  else
+    puts "Sem parâmetro do tipo bloco"
+  end
 end
+
+foo
+foo { puts "Com parâmetro do tipo bloco" }
+
+
+
 
 
 
