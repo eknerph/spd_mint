@@ -1,6 +1,6 @@
-class fish
+class Fish
   def method_missing(method_name)
-    puts "Fish don't have #{method_missing} behavior"
+    puts "Fish don't have #{method_name} behavior"
   end
 
 
@@ -13,5 +13,6 @@ end
 fish = Fish.new
 fish.swim
 fish.walk
+fish.run
 
 
