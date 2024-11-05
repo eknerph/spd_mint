@@ -1,6 +1,6 @@
 class Foo
   def call_private
-    bar
+    self.bar
   end
 
   private
