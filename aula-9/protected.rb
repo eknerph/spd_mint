@@ -11,4 +11,8 @@ protected
   end
 end
 
+instance_1 = Foo.new
+
+instance_2 = Foo.new
+
 
