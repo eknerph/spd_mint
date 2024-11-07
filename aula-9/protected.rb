@@ -1,5 +1,5 @@
 class Foo
-  def call_private(instance)
+  def call_protected(instance)
     instance.bar
   end
 
@@ -14,5 +14,11 @@ end
 instance_1 = Foo.new
 
 instance_2 = Foo.new
+
+instance_1.call_protected(instance_1)
+
+instance_2.call_protected(instance_2)
+
+
 
 
