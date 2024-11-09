@@ -1,7 +1,7 @@
 class Foo
   def call_protected(instance)
     # instance.bar
-    /Chamando também via self ele fonciona/ 
+    # /Chamando também via self ele fonciona/ 
     self.bar 
   end
 
