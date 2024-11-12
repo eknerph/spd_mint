@@ -16,13 +16,13 @@
 require 'nokogiri'
 require 'net/http'
 
-https = Net::HTML.new('onebitcode.com', 443)
+https = Net::HTTP.new('onebitcode.com', 443)
 # apara fazer chamadas https
 https.use_ssl = true
 
 response = https.get("/")
 
-doc Nokogiri::HTML(response.body)
+doc = Nokogiri::HTML(response.body)
 
 doc.search('h3 a').each do |a|
   puts a.content
